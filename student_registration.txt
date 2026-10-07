@@ -1,0 +1,23 @@
+Register Number: CSE202501
+Email: rahul@college.edu
+Course Code: CSE101
+Semester: Semester 5
+Mobile: 9876543210
+
+Register Number: AI202502
+Email: priya@college.edu
+Course Code: AIE205
+Semester: Semester 3
+Mobile: 8765432109
+
+Register Number: ECE25
+Email: arjun@gmail.com
+Course Code: ECE12
+Semester: Semester 10
+Mobile: 5123456789
+
+Register Number: CSE202504
+Email: sneha@college.edu
+Course Code: CSE301
+Semester: Semester 7
+Mobile: 9988776655
