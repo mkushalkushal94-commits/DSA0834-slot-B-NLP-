@@ -1,0 +1,84 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> 
+======== RESTART: C:/Users/Samuel/Desktop/Q3_University_Registration.py ========
+======================================================================
+             UNIVERSITY REGISTRATION SYSTEM
+======================================================================
+
+STUDENT 1
+----------------------------------------------------------------------
+Register Number : CSE202501
+Email           : rahul@college.edu
+Course Code     : CSE101
+Semester        : Semester 5
+Mobile          : 9876543210
+
+Validation Results
+Register Number          : VALID
+Institutional Email      : VALID
+Course Code              : VALID
+Semester                 : VALID
+Mobile Number            : VALID
+
+Registration Status : SUCCESSFUL
+
+STUDENT 2
+----------------------------------------------------------------------
+Register Number : AI202502
+Email           : priya@college.edu
+Course Code     : AIE205
+Semester        : Semester 3
+Mobile          : 8765432109
+
+Validation Results
+Register Number          : VALID
+Institutional Email      : VALID
+Course Code              : VALID
+Semester                 : VALID
+Mobile Number            : VALID
+
+Registration Status : SUCCESSFUL
+
+STUDENT 3
+----------------------------------------------------------------------
+Register Number : ECE25
+Email           : arjun@gmail.com
+Course Code     : ECE12
+Semester        : Semester 10
+Mobile          : 5123456789
+
+Validation Results
+Register Number          : INVALID
+Institutional Email      : INVALID
+Course Code              : INVALID
+Semester                 : INVALID
+Mobile Number            : INVALID
+
+Registration Status : FAILED
+
+STUDENT 4
+----------------------------------------------------------------------
+Register Number : CSE202504
+Email           : sneha@college.edu
+Course Code     : CSE301
+Semester        : Semester 7
+Mobile          : 9988776655
+
+Validation Results
+Register Number          : VALID
+Institutional Email      : VALID
+Course Code              : VALID
+Semester                 : VALID
+Mobile Number            : VALID
+
+Registration Status : SUCCESSFUL
+
+======================================================================
+                  FINAL REPORT
+======================================================================
+Total Registrations : 4
+Successful          : 3
+Failed              : 1
+
+Registration processing completed.
