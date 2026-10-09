@@ -1,0 +1,176 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> 
+============ RESTART: C:/Users/Samuel/Desktop/Q3_Pattern_Matching.py ===========
+=================================================================
+             SMART PATTERN MATCHING ENGINE
+=================================================================
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 1
+Enter word to search: natural
+
+=================================================================
+WORD SEARCH
+=================================================================
+Natural
+natural
+
+Total Matches: 2
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 2
+
+=================================================================
+DATE SEARCH
+=================================================================
+12/09/2026
+18/10/2026
+
+Total Matches: 2
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 3
+
+=================================================================
+PHONE NUMBER SEARCH
+=================================================================
+9876543210
+8765432109
+
+Total Matches: 2
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 4
+
+=================================================================
+HASHTAG SEARCH
+=================================================================
+#NLP
+#ArtificialIntelligence
+#MachineLearning
+
+Total Matches: 3
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 5
+
+=================================================================
+MENTION SEARCH
+=================================================================
+@OpenAI
+@NLPCommunity
+
+Total Matches: 2
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 6
+Enter prefix: data
+
+=================================================================
+PREFIX SEARCH
+=================================================================
+data
+
+Total Matches: 1
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 7
+Enter suffix: ing
+
+=================================================================
+SUFFIX SEARCH
+=================================================================
+Meeting
+Processing
+processing
+learning
+MachineLearning
+programming
+
+Total Matches: 6
+
+MENU
+------------------------------
+1. Search Word
+2. Search Date
+3. Search Phone Number
+4. Search Hashtag
+5. Search Mention
+6. Search Prefix
+7. Search Suffix
+8. Exit
+
+Enter your choice: 8
+
+Pattern matching engine closed.

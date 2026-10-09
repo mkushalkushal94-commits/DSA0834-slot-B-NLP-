@@ -1,0 +1,67 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+============= RESTART: C:/Users/Samuel/Desktop/Q2_DFA_Simulator.py =============
+======================================================================
+                     DFA SIMULATOR
+======================================================================
+
+States       : q0, q1, q2
+Alphabet     : a, b
+Initial State: q0
+Final States : q2
+
+Transition Table
+--------------------------------------------------
+State          a              b              
+q0             q1             q0             
+q1             q1             q2             
+q2             q1             q0             
+
+======================================================================
+                  STRING PROCESSING
+======================================================================
+
+Input String 1: ab
+Transition Path: q0 → q1 → q2
+Status: ACCEPTED
+
+Input String 2: aab
+Transition Path: q0 → q1 → q1 → q2
+Status: ACCEPTED
+
+Input String 3: abaab
+Transition Path: q0 → q1 → q2 → q1 → q1 → q2
+Status: ACCEPTED
+
+Input String 4: abab
+Transition Path: q0 → q1 → q2 → q1 → q2
+Status: ACCEPTED
+
+Input String 5: ba
+Transition Path: q0 → q0 → q1
+Status: REJECTED
+
+Input String 6: abb
+Transition Path: q0 → q1 → q2 → q0
+Status: REJECTED
+
+Input String 7: baba
+Transition Path: q0 → q0 → q1 → q2 → q1
+Status: REJECTED
+
+Input String 8: aabb
+Transition Path: q0 → q1 → q1 → q2 → q0
+Status: REJECTED
+
+Input String 9: abc
+Transition Path: q0 → q1 → q2
+Result: Invalid input symbol 'c'
+Status: REJECTED
+
+======================================================================
+                     FINAL REPORT
+======================================================================
+Total Strings : 9
+Accepted      : 4
+Rejected      : 5

@@ -1,0 +1,100 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+========== RESTART: C:/Users/Samuel/Desktop/Q1_Credential_Validator.py =========
+=================================================================
+       INTELLIGENT USER CREDENTIAL VALIDATOR
+=================================================================
+
+USER 1
+-----------------------------------------------------------------
+Name     : Rahul Kumar
+Email    : rahul.kumar123@gmail.com
+Password : *********
+Mobile   : 9876543210
+
+Validation Results
+Email               : VALID
+Password            : VALID
+Mobile Number       : VALID
+
+Account Status : VALID
+
+USER 2
+-----------------------------------------------------------------
+Name     : Priya Sharma
+Email    : priya_sharma@college.edu
+Password : **********
+Mobile   : 8765432109
+
+Validation Results
+Email               : VALID
+Password            : VALID
+Mobile Number       : VALID
+
+Account Status : VALID
+
+USER 3
+-----------------------------------------------------------------
+Name     : Arjun Raj
+Email    : 2arjun@gmail.com
+Password : ********
+Mobile   : 9876543210
+
+Validation Results
+Email               : INVALID
+Password            : INVALID
+Mobile Number       : VALID
+
+Account Status : INVALID
+
+USER 4
+-----------------------------------------------------------------
+Name     : Sneha Patel
+Email    : sneha.patel@company.org
+Password : **********
+Mobile   : 9988776655
+
+Validation Results
+Email               : VALID
+Password            : VALID
+Mobile Number       : VALID
+
+Account Status : VALID
+
+USER 5
+-----------------------------------------------------------------
+Name     : Karthik Kumar
+Email    : karthik@company.xyz
+Password : ***********
+Mobile   : 9123456780
+
+Validation Results
+Email               : INVALID
+Password            : VALID
+Mobile Number       : VALID
+
+Account Status : INVALID
+
+USER 6
+-----------------------------------------------------------------
+Name     : Ananya Rao
+Email    : ananya_rao@college.net
+Password : **********
+Mobile   : 5123456789
+
+Validation Results
+Email               : VALID
+Password            : INVALID
+Mobile Number       : INVALID
+
+Account Status : INVALID
+
+=================================================================
+                    FINAL REPORT
+=================================================================
+Total Users   : 6
+Valid Users   : 3
+Invalid Users : 3
+
+Credential validation completed.
